@@ -3,7 +3,9 @@ import "./App.css";
 import ProductCard from "./components/ProductCard";
 import CardShowcase from "./components/CardShowcase";
 import StandaloneDemo from "./components/StandaloneDemo";
-import { EmbeddableProductCard, ProductCardDemo, ProductCardShowcase } from "./components/EmbeddableProductCard";
+import EmbeddableProductCard from "./components/EmbeddableProductCard/EmbeddableProductCard";
+import ProductCardDemo from "./components/EmbeddableProductCard/ProductCardDemo";
+import ProductCardShowcase from "./components/EmbeddableProductCard/ProductCardShowcase";
 
 function App() {
   // Show different views based on URL parameters
